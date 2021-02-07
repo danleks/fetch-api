@@ -24,11 +24,11 @@ const render = (data) => {
     // in the end only 1 DOM operation is made
 };
 
-const handleSuccess = (response) => response.json();
+// const handleSuccess = (response) => response.json();
 
-const handleError = (error) => {
-    console.log(error);
-};
+// const handleError = (error) => {
+//     console.log(error);
+// };
 
 // fetch(API_URL)
 //     .then(handleSuccess)
